@@ -20,7 +20,7 @@ function Searched() {
 
 	return (
 		<Grid>
-			{searchedRecipes.map(recipe => {
+			{searchedRecipes?.map(recipe => {
 				return (
 					<Link to={`/recipe/${recipe.id}`}>
 						<Card key={recipe.id}>

@@ -28,7 +28,7 @@ function Cuisine() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      {cuisine.map((recipe) => {
+      {cuisine?.map((recipe) => {
         return (
           <Card key={recipe.id}>
             <Link to={`/recipe/${recipe.id}`}>

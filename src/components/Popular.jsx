@@ -49,7 +49,7 @@ function Popular() {
             },
           }}
         >
-          {popular.map((recipe) => {
+          {popular?.map((recipe) => {
             return (
               <SplideSlide key={recipe.id}>
                 <Card>
